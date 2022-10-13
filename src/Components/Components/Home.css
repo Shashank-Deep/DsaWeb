@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+  #Navbar{
+    margin: auto;
+    position: sticky;
+  }
+  
+  .navv{
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  ul li a:hover{
+    color: blue !important; 
+  }
+
+  .mainhead{
+    font-size: 55px;
+    
+  }
+
+  #btnn{
+    border: 1px blue solid;
+  }
+
+  #home::before{ 
+    content: "";
+    position: absolute;
+    background: url('https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+  .burder{
+    border-radius: 15px;
+    border-color: blue;
+    height: 300px !important;
+  }
+
+  #Title{
+    height: 250px !important; 
+   }
+
+  #Title2{
+    height: 250px !important; 
+   }
+
+  #grid1{
+    height: 10px !important;
+
+  }
+
+  #dekhte{
+    position: relative !important;
+    right: 165px !important;
+  }
+
+  #para{
+    position: relative;
+    top: 50px;
+  }
+
+  #explore{
+    position: relative;
+    top: 40px !important;
+    font-size: 40px;
+  }
+
+  #imgcol{
+    position: relative !important;
+    top: 150px !important;
+  }
